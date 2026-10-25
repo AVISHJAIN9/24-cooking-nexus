@@ -1,0 +1,26 @@
+{
+  "name": "good",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^8.23.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "mermaid": "^11.4.1",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}

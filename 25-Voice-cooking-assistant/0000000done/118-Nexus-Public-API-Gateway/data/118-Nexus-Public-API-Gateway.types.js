@@ -1,0 +1,1 @@
+module.exports={API_VERSIONS:['v1','v2'],DEFAULT_RATE:1000};

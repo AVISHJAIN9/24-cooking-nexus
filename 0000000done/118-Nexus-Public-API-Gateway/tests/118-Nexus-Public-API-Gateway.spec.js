@@ -1,0 +1,1 @@
+const GW=require('../core/118-Nexus-Public-API-Gateway.nexus.core');const assert=require('assert');describe('APIGateway',()=>{it('registers key',()=>{GW.registerKey('abc');assert.strictEqual(GW.listKeys().length,1);});});

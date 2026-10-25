@@ -1,0 +1,4 @@
+module.exports = {
+    MODES: { ACCURACY: 'ACCURACY', SPEED: 'SPEED' },
+    PERSONAS: ['GORDON_STYLE', 'MAMA_KITCHEN', 'SCIENTIFIC_CHEF']
+};

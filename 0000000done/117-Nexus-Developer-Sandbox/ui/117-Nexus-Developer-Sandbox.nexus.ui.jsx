@@ -1,0 +1,1 @@
+import React,{useEffect,useState}from'react';import'./117-Nexus-Developer-Sandbox.styles.css';export const SandboxUI=()=>{const[s,setS]=useState([]);useEffect(()=>setS(window.sandboxes||[]),[]);return(<div className="sandbox-ui"><h3>Developer Sandbox</h3><ul>{s.map((x,i)=><li key={i}>{x.name}</li>)}</ul></div>);};export default SandboxUI;

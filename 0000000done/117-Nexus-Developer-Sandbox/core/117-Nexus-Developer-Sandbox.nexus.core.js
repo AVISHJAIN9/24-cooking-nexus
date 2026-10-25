@@ -1,0 +1,2 @@
+const { sandboxes } = require('../data/117-Nexus-Developer-Sandbox.schema');
+class NexusSandbox{static create(name){sandboxes.push({name,created:Date.now()});}static list(){return sandboxes;}}module.exports=NexusSandbox;

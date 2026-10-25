@@ -1,0 +1,2 @@
+import React,{useEffect,useState}from'react';import'./114-System-Auto-Scaling-Policy.styles.css';
+export const HealthMonitor=()=>{const[p,setP]=useState([]);useEffect(()=>setP(window.scalerPolicies||[]),[]);return(<div className="scaler-monitor"><h3>Auto Scaling Policies</h3><ul>{p.map((x,i)=><li key={i}>{x.name}</li>)}</ul></div>);};export default HealthMonitor;

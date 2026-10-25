@@ -1,0 +1,127 @@
+.settings-layout {
+  display: flex;
+  min-height: 85vh;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.05);
+}
+
+.settings-sidebar {
+  width: 240px;
+  background: #fafafa;
+  padding: 30px 15px;
+  border-right: 1px solid #efefef;
+}
+
+.settings-sidebar h3 {
+  margin-left: 12px;
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+}
+
+.settings-sidebar button {
+  width: 100%;
+  text-align: left;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border: none;
+  background: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #555;
+  transition: all 0.2s;
+}
+
+.settings-sidebar button i { width: 20px; }
+
+.settings-sidebar button.active {
+  background: #000;
+  color: #fff;
+  font-weight: 500;
+}
+
+.settings-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.settings-section h4 {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #ffcc00;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.setting-label span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.helper-text {
+  font-size: 0.85rem;
+  color: #8e8e8e;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.save-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.danger-zone {
+  margin-top: 60px;
+  background: #fff5f5;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px dashed #ff8a80;
+}
+
+.danger-zone h4 { border-bottom-color: #ff5252; color: #ff5252; }
+
+.delete-btn {
+  background: #ff5252;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 15px;
+  cursor: pointer;
+}

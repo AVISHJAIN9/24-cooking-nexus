@@ -1,0 +1,74 @@
+.music-attribution-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  bottom: 85px;
+  right: 15px;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.song-info {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px 12px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 150px;
+  overflow: hidden;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.song-text-container {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.scrolling-text {
+  display: inline-block;
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.vinyl-record {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 3px solid #222;
+  background: #111;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vinyl-record img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vinyl-record.spinning {
+  animation: rotateVinyl 4s linear infinite;
+}
+
+@keyframes rotateVinyl {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.audio-bars {
+  position: absolute;
+  bottom: 30px;
+  right: 15px;
+  opacity: 0.7;
+  pointer-events: none;
+}

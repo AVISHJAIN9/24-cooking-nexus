@@ -1,0 +1,4 @@
+module.exports = {
+    LOG_LEVELS: { INFO: 'INFO', WARN: 'WARNING', ERROR: 'CRITICAL' },
+    ACTIONS: { LOGIN: 'AUTH_LOGIN', DELETE: 'DATA_DELETE' }
+};

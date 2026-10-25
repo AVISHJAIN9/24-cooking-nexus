@@ -1,0 +1,3 @@
+module.exports = {
+    SESSION_STATES: { ACTIVE: 'ACTIVE', EXPIRED: 'EXPIRED', REVOKED: 'REVOKED' }
+};

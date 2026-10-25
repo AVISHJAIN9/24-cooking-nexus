@@ -1,0 +1,1 @@
+import React,{useEffect,useState}from'react';import'./118-Nexus-Public-API-Gateway.styles.css';export const GatewayUI=()=>{const[k,setK]=useState([]);useEffect(()=>setK(window.apiKeys||[]),[]);return(<div className="gateway-ui"><h3>Public API Gateway</h3><ul>{k.map((x,i)=><li key={i}>{x}</li>)}</ul></div>);};export default GatewayUI;

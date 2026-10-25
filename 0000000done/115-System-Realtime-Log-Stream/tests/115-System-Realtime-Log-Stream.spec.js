@@ -1,0 +1,1 @@
+const RL=require('../core/115-System-Realtime-Log-Stream.orchestrator.service');const assert=require('assert');describe('RealtimeLog',()=>{it('records an entry',()=>{RL.record({message:'test'});assert.strictEqual(RL.dump().length,1);});});

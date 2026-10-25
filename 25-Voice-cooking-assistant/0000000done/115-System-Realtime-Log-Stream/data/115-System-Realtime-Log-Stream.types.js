@@ -1,0 +1,1 @@
+module.exports={STREAM_LEVELS:{INFO:'INFO',ERROR:'ERROR'},DEFAULT_TOPIC:'sys.logs'};

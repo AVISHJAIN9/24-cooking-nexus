@@ -1,0 +1,2 @@
+const PolicyRepo=require('../data/114-System-Auto-Scaling-Policy.infra.repo');
+class AutoScaler{static register(policy){PolicyRepo.add(policy);}static getAll(){return PolicyRepo.list();}}module.exports=AutoScaler;

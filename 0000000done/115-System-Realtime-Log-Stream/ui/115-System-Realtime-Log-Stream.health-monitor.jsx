@@ -1,0 +1,1 @@
+import React,{useEffect,useState}from'react';import'./115-System-Realtime-Log-Stream.styles.css';export const HealthMonitor=()=>{const[l,setL]=useState([]);useEffect(()=>setL(window.logs||[]),[]);return(<div className="log-monitor"><h3>Realtime Logs</h3><ul>{l.map((e,i)=><li key={i}>{e.message}</li>)}</ul></div>);};export default HealthMonitor;

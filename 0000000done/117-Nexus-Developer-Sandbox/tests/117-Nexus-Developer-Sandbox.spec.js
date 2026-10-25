@@ -1,0 +1,1 @@
+const Nexus=require('../core/117-Nexus-Developer-Sandbox.nexus.core');const assert=require('assert');describe('NexusSandbox',()=>{it('creates a sandbox',()=>{Nexus.create('test');assert.strictEqual(Nexus.list().length,1);});});

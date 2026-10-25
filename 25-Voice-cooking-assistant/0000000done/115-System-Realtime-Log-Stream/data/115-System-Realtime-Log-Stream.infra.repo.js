@@ -1,0 +1,1 @@
+const{logs}=require('./115-System-Realtime-Log-Stream.schema');class LogRepo{static push(l){logs.push(l);}static all(){return logs;}}module.exports=LogRepo;

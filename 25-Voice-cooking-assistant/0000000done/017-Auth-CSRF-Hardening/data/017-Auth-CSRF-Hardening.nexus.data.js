@@ -1,0 +1,4 @@
+module.exports = {
+    SECURITY_LEVEL: 'STRICT',
+    VAULT_IDENTIFIER: 'NEXUS-SHIELD-017'
+};

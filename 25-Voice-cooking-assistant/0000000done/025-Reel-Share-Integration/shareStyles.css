@@ -1,0 +1,39 @@
+.share-sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 200;
+  display: flex;
+  align-items: flex-end;
+}
+
+.share-sheet-content {
+  width: 100%;
+  background: white;
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+  animation: slideIn 0.3s ease-out;
+  color: #333;
+}
+
+.share-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.share-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background: none;
+  font-size: 0.8rem;
+  gap: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  color  colorIn {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}

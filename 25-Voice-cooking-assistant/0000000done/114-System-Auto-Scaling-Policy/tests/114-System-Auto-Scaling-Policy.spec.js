@@ -1,0 +1,1 @@
+const Auto = require('../core/114-System-Auto-Scaling-Policy.orchestrator.service');const assert=require('assert');describe('AutoScaler',()=>{it('adds policy',()=>{Auto.register({name:'cpu',threshold:80});assert.strictEqual(Auto.getAll().length,1);});});

@@ -1,0 +1,79 @@
+.save-action-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.save-icon {
+  font-size: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.save-icon.saved {
+  color: #ffcc00; /* Gold color for saved items */
+  transform: scale(1.1);
+}
+
+.collection-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 300;
+}
+
+.collection-modal-content {
+  background: #fff;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 15px;
+  padding: 20px;
+  color: #333;
+}
+
+.collection-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin: 15px 0;
+}
+
+.collection-list button {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  border: none;
+  background: #f8f8f8;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.new-collection-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.new-collection-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.close-modal {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background: #eee;
+  border-radius: 8px;
+  font-weight: bold;
+}

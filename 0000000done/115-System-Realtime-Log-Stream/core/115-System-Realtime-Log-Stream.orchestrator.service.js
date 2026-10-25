@@ -1,0 +1,1 @@
+const LogRepo=require('../data/115-System-Realtime-Log-Stream.infra.repo');class RealtimeLog{static record(entry){LogRepo.push(entry);}static dump(){return LogRepo.all();}}module.exports=RealtimeLog;
