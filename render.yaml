@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: aj-cooking-nexus
+    runtime: node
+    plan: free
+    autoDeploy: true
+    buildCommand: npm ci || npm install; npm run build --if-present
+    startCommand: npm start
